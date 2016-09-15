@@ -1,0 +1,10 @@
+task H << {
+    println "Hello world!"
+}
+task taskA(dependsOn:H)<< {
+println "executing taskA"
+}
+task copyFile(type:Copy)<< {
+    from 'xml'
+    into 'destination'
+}
