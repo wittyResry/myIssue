@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0mPackaging /Users/resry/sparkTest/sbtTest/target/scala-2.11/line-count_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	LineCount$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/resry/sparkTest/sbtTest/target/scala-2.11/classes/LineCount$.class[0m
+[0m[[0mdebug[0m] [0m	LineCount.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/resry/sparkTest/sbtTest/target/scala-2.11/classes/LineCount.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
