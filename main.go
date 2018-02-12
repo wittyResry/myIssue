@@ -10,6 +10,8 @@ import (
 	"my-go-test/packages"
 	"my-go-test/typeinference"
 	"my-go-test/variables"
+	"my-go-test/forcontinued"
+    "my-go-test/exercise"
 )
 
 func main() {
@@ -24,4 +26,6 @@ func main() {
 	variables.MainVariableDeclarations()
 	typeinference.MainTypeInference()
 	numeric.MainNumericConstants()
+    forcontinued.MainForContinued()
+    exercise.MainLoopAndFunction()
 }
