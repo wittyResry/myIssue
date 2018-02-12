@@ -8,6 +8,7 @@ import (
     "my-go-test/multipleresults"
     "my-go-test/namedresults"
     "my-go-test/variables"
+    "my-go-test/typeinference"
 )
 
 func main() {
@@ -19,4 +20,6 @@ func main() {
     namedresults.Main()
     variables.Main()
     variables.MainInitializers()
+    variables.MainVariableDeclarations()
+    typeinference.MainTypeInference()
 }
