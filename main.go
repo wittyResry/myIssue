@@ -13,6 +13,7 @@ import (
 	"my-go-test/forcontinued"
     "my-go-test/exercise"
     "my-go-test/switchs"
+    "my-go-test/defers"
 )
 
 func main() {
@@ -31,4 +32,6 @@ func main() {
     exercise.MainLoopAndFunction()
     switchs.MainSwitchOS()
     switchs.MainSwitchWithNoCondition()
+    defers.MainDefer()
+    defers.MainDeferStack()
 }
