@@ -21,3 +21,7 @@
 
 # 短变量的声明
 * 在函数中，简洁赋值语句 := 可在类型明确的地方代替 var 声明。函数外的每个语句都必须以关键字开始（ var 、 func 等等）， 因此 := 结构不能在函数外使用。没有明确初始值的变量声明会被赋予它们的值 。常量不能用 := 语法声明。
+
+# switch语句和没有条件的 switch
+* Go 的 switch 语句类似于 C、C++、Java、JavaScript 和 PHP 中的，不过 Go 只运行选定的 case，而非之后所有的 case。 实际上，Go 自动提供了在这些语言中每个 case 后面所需的 break 语句。 除非以 fallthrough 语句结束，否则分支会自动终止。 Go 的另一点重要的不同在于 switch 的 case 无需为常量，且取值不必为整数。
+* 没有条件的 switch 同 switch true 一样。这种形式能将一长串 if-then-else 写得更加清晰。

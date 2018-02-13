@@ -12,6 +12,7 @@ import (
 	"my-go-test/variables"
 	"my-go-test/forcontinued"
     "my-go-test/exercise"
+    "my-go-test/switchs"
 )
 
 func main() {
@@ -28,4 +29,6 @@ func main() {
 	numeric.MainNumericConstants()
     forcontinued.MainForContinued()
     exercise.MainLoopAndFunction()
+    switchs.MainSwitchOS()
+    switchs.MainSwitchWithNoCondition()
 }
