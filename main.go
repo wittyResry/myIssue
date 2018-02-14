@@ -14,6 +14,7 @@ import (
     "my-go-test/exercise"
     "my-go-test/switchs"
     "my-go-test/defers"
+    "my-go-test/pointers"
 )
 
 func main() {
@@ -34,4 +35,5 @@ func main() {
     switchs.MainSwitchWithNoCondition()
     defers.MainDefer()
     defers.MainDeferStack()
+    pointers.MainPointer()
 }
