@@ -17,6 +17,7 @@ import (
 	"my-go-test/typeinference"
 	"my-go-test/variables"
 	"my-go-test/arrays"
+	"my-go-test/maps"
 )
 
 func main() {
@@ -42,4 +43,6 @@ func main() {
 	structs.MainStructPoint()
     arrays.MainArray()
     exercise.MainPic()
+    maps.MainMap()
+    exercise.MainMaps()
 }
