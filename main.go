@@ -16,6 +16,7 @@ import (
 	"my-go-test/switchs"
 	"my-go-test/typeinference"
 	"my-go-test/variables"
+	"my-go-test/arrays"
 )
 
 func main() {
@@ -39,5 +40,6 @@ func main() {
 	pointers.MainPointer()
 	structs.MainStruct()
 	structs.MainStructPoint()
-	fmt.Printf("%T", "ss")
+    arrays.MainArray()
+    exercise.MainPic()
 }
