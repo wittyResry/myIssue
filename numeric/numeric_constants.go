@@ -3,12 +3,12 @@ package numeric
 import "fmt"
 
 const (
-    Big = 1 << 100
-    Small = Big >> 99
+	Big   = 1 << 100
+	Small = Big >> 99
 )
 
 func MainNumericConstants() {
-    //fmt.Print(Big) overflows
-    //fmt.Print("%T\n", Small)
-    fmt.Println(Small)
+	//fmt.Print(Big) overflows
+	//fmt.Print("%T\n", Small)
+	fmt.Println(Small)
 }
